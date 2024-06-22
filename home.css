@@ -1,0 +1,69 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* background-color: salmon; */
+}
+
+.box {
+  min-height: 70vh;
+  width: 100%;
+  border: none;
+  margin: 2rem auto;
+
+  border-radius: 1rem;
+  box-shadow: 10px 10px 35px black;
+  position: relative;
+  background: url(/nostar-ecommerce/20.jpg) center/cover fixed no-repeat;
+
+  background-size: 100% 100%;
+  background-attachment: scroll;
+}
+.btn-left {
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fbfbfb;
+  padding: 0.2em 0.6em;
+  border-radius: 2em;
+  cursor: pointer;
+}
+.btn-right {
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fbfbfb;
+  padding: 0.2em 0.6em;
+  border-radius: 2em;
+  cursor: pointer;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+.brand-1 img {
+  width: 100px;
+  height: 100px;
+}
+.Arrival button {
+  position: relative;
+  left: 30%;
+  bottom: 40%;
+  transform: translateY(50%);
+  /* background-color: #241313; */
+  padding: 0.2em 0.4em;
+
+  cursor: pointer;
+}
+.arraival-1 img {
+  height: 20rem;
+  width: 18rem;
+  border-radius: 20px;
+  opacity: 70%;
+}
+.arraival-1 img:hover {
+  opacity: 100%;
+  transition: 0.5s;
+}
