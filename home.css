@@ -3,6 +3,7 @@ body {
   padding: 0%;
   box-sizing: border-box;
   /* background-color: salmon; */
+  /* overflow: hidden; */
 }
 
 .box {
@@ -66,4 +67,131 @@ body {
 .arraival-1 img:hover {
   opacity: 100%;
   transition: 0.5s;
+}
+
+.scroller {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  overflow: scroll;
+}
+.wanted {
+  width: 20rem;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  flex: none;
+  position: relative;
+}
+.wanted img {
+  width: 100%;
+  filter: grayscale(50%);
+  transition: transform 0.5s;
+  border-radius: 20px;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+.wanted img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.wanted p {
+  font-size: 1.5rem;
+  height: 40px;
+  width: 3.5rem;
+  background-color: red;
+  padding-bottom: 1rem;
+  color: #fbfbfb;
+  border-radius: 10px;
+  padding-left: 0.3rem;
+  /* position: absolute; */
+}
+.poster {
+  width: 100%;
+  height: 20rem;
+  background-color: rgb(43, 41, 62);
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.container {
+  width: 40%;
+}
+.container img {
+  height: 17rem;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+.offer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  right: 10%;
+  top: 10%;
+}
+.poster {
+  width: 95vw;
+}
+.offer button {
+  position: relative;
+  /* bottom: 1.5rem; */
+}
+.search {
+  text-align: center;
+}
+.search input {
+  border: 3px solid black;
+  width: 80%;
+  height: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+.footer {
+  height: 15rem;
+  padding: 2rem;
+}
+.footer i {
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.parent {
+  width: 100%;
+  overflow: hidden;
+}
+.left-check {
+  width: 20%;
+  border-right: 3px solid rgb(17, 17, 17);
+}
+.right-item {
+  width: 80%;
+}
+.search-1 {
+  width: 100%;
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 4px;
+}
+.search-1 input {
+  width: 100%;
+}
+.collections {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.collect-1 {
+  cursor: pointer;
+  filter: grayscale(50%);
+  transition: transform 0.5s;
+  border-radius: 40px;
+}
+.collect-1:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.05);
 }

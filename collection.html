@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+ </head>
+ <body>
+    <!-- section 1 pop up -->
+      <section class="head">
+        <div
+          class="popup flex justify-around bg-black text-white p-2 cursor-pointer"
+        >
+          <p>
+            Sign Up and<span class="font-bold"> GET 20% OFF</span> for your
+            first Order
+          </p>
+
+          <p id="close" class="font-bold text-xl">x</p>
+        </div>
+      </section>
+
+      <nav class="flex justify-between">
+        <h1 class="text-3xl font-bold p-2">nostar</h1>
+        <div class="p-5 flex gap-5 text-gray-700 cursor-pointer font-bold">
+          <a class="hover:underline text-center" href="./home.html">Home</a>
+
+          <a class="hover:underline" href="./home.html/#newarraival">New arraivals</a>
+
+          <a class="hover:underline" href="./home.html/#mostwanted">Most wanted</a>
+
+          <a class="hover:underline" href="./product.html">Collection</a>
+
+          <a class="hover:underline" href="./contact.html">Contact us</a>
+        </div>
+      </nav>
+    </div>
+    <!-- products -->
+     <div class="parent flex">
+        <div class="left-check p-3">
+          <div class="check-1 text-lg">
+            <h1 class="text-4xl font-bold">Occasion</h1>
+            <input type="checkbox" name="Summer" id="Summer">Summer <br>
+            <input type="checkbox" name="Party" id="Party">Party <br>
+            <input type="checkbox" name="Beach" id="Beach">Beach <br>
+          </div><br>
+          <div class="check-2 text-lg">
+            <h1 class="text-4xl font-bold">Colors</h1>
+            <input type="checkbox" name="Red" id="Red">Red <br>
+            <input type="checkbox" name="Blue" id="Blue">Blue <br>
+            <input type="checkbox" name="White" id="White">White <br>
+            <input type="checkbox" name="Green" id="Green">Green <br>
+          </div><br>
+          <div class="check-3 text-lg">
+            <h1 class="text-4xl font-bold">Arraivals</h1>
+            <input type="checkbox" name="New" id="New">New <br>
+            <input type="checkbox" name="Old" id="Old">Old <br>
+          </div>
+        </div>
+        <div class="right-item flex-col p-3">
+          <div class="search-1 flex justify-between">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass p-1"></i>
+          </div><br>
+<div class="collections ">
+  <div class="collect-1">
+    <img src="./45-1.jpg" alt="">
+    <h1 class="font-bold" >Floral Summer Shirt</h1>
+    <p class="text-xs">₹220</p>
+  </div>
+  <div class="collect-1">
+    <img src="./46-1.jpg" alt="">
+    <h1 class="font-bold" >Summer Green</h1>
+    <p class="text-xs">₹260</p>
+  </div>
+  <div class="collect-1">
+    <img src="./47-1.jpg" alt="">
+    <h1 class="font-bold" >Party Floral Shirt</h1>
+    <p class="text-xs">₹399</p>
+  </div>
+  <div class="collect-1">
+    <img src="./48-1.jpg" alt="">
+    <h1 class="font-bold" >Floral Summer Shirt</h1>
+    <p class="text-xs">₹399</p>
+  </div>
+  <div class="collect-1">
+    <img src="./49-1.jpg" alt="">
+    <h1 class="font-bold" >Beach Shirt</h1>
+    <p class="text-xs">₹579</p>
+  </div>
+  <div class="collect-1">
+    <img src="./51-1.jpg" alt="">
+    <h1 class="font-bold" >Shirt Party Red</h1>
+    <p class="text-xs">₹579</p>
+  </div>
+  <div class="collect-1">
+    <img src="./52-1.jpg" alt="">
+    <h1 class="font-bold" >Party Floral Shirt</h1>
+    <p class="text-xs">₹399</p>
+  </div>
+  <div class="collect-1">
+    <img src="./53-1.jpg" alt="">
+    <h1 class="font-bold" >Shirt Party Red</h1>
+    <p class="text-xs">₹579</p>
+  </div>
+  <div class="collect-1">
+    <img src="./54-1.jpg" alt="">
+    <h1 class="font-bold" >Floral Summer Shirt</h1>
+    <p class="text-xs">₹220</p>
+  </div>
+</div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+     <div class="search p-5 ">
+    <h1 class="text-4xl font-bold">Join our News Letter</h1>
+    <p class="text-lg">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <input type="search" placeholder="Search here"> <br>
+    <button class="font-bold text-blue-50 bg-black rounded-md p-3 ">Subscribe <i class="fa-solid fa-circle-arrow-right"></i></button>
+  </div>
+  <!-- footer -->
+     <div class="footer bg-gray-900 text-white ">
+      
+        <h1 class="text-4xl font-bold flex-col gap-5">Nostar</h1><br>
+      <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p><br>
+      <i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;
+      <i class="fa-brands fa-x-twitter"></i>&nbsp;&nbsp;&nbsp;
+      <i class="fa-brands fa-square-facebook"></i>
+      
+      <p>@ 2023 Nostra.com</p>
+    </div>
+     
+    <script src="home.js"></script>
+ </body>
+ </html>
